@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Me - Hayls Maness</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .about-content {
+            text-align: center;
+            margin: 50px auto;
+            max-width: 800px;
+        }
+        .about-content h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .about-content p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">Hayls Maness</a>
+    </header>
+
+    <div class="about-content">
+        <h1>About Me</h1>
+        <p>
+            <!-- Add your information here. For example: -->
+            Hi, I'm Hayls Maness. I'm an artist who specializes in digital and traditional art. My work explores themes of nature, emotions, and abstract concepts. I enjoy using a wide range of mediums and love experimenting with new techniques to bring my ideas to life. My art has been showcased in various galleries, and I continue to grow and evolve as an artist with each piece I create.
+        </p>
+    </div>
+</body>
+</html>
