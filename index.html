@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hayls Maness - Art Portfolio</title>
+    <title>About Me - Hayls Maness</title>
     <style>
         /* Set the font to Rockwell */
         body {
@@ -26,69 +26,53 @@
             font-size: 28px;
             font-weight: bold;
         }
-        .content {
-            margin: 0 auto;
-            padding: 20px;
+        .about-content {
+            text-align: center;
+            margin: 50px auto;
             max-width: 1200px;
+            padding: 20px;
         }
         h1 {
             font-size: 48px;
             margin-bottom: 20px;
-            text-align: center;
         }
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin-top: 40px;
+        .about-image {
+            border-radius: 50%;
+            max-width: 200px;
+            margin: 20px 0;
         }
-        .gallery-item {
-            width: 250px;
-            margin: 15px;
-            background-color: #2e6b53;
-            border-radius: 8px;
-            padding: 10px;
-            text-align: center;
-        }
-        .gallery-item img {
-            width: 100%;
-            border-radius: 8px;
-        }
-        .description {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            margin-top: 10px;
-            border-radius: 5px;
-            height: 100px; /* Box height */
-            overflow-y: auto;
-        }
-
-        .right-sidebar {
-            display: flex;
-            flex-wrap: wrap;
-            margin-top: 40px;
-            justify-content: flex-start;
-        }
-
-        .sidebar-box {
-            width: 220px;
-            background-color: #2e6b53;
-            border-radius: 8px;
-            padding: 15px;
-            margin: 10px;
-        }
-
-        .sidebar-box:last-child {
-            width: 100%;
-        }
-
-        .sidebar-box h3 {
-            margin: 0;
+        .bio-text {
             font-size: 20px;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 20px;
+            background-color: #2e6b53; /* Box with lighter emerald */
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
     <header>
         <a href="index.html">Hayls Maness</a>
+    </header>
+
+    <div class="about-content">
+        <h1>About Me</h1>
+
+        <!-- Your profile picture -->
+        <img src="your-photo.jpg" alt="Hayls Maness" class="about-image">
+
+        <!-- Your Bio -->
+        <div class="bio-text">
+            <p>
+                Hi, I'm Hayls Maness, an artist with a passion for both traditional and digital art. My work explores themes such as nature, emotions, and the beauty of abstraction. I use a variety of mediums to bring my ideas to life, ranging from oil paints to digital illustration. My journey as an artist has been deeply personal, and I draw inspiration from my experiences, my surroundings, and the natural world around me.
+            </p>
+            <p>
+                Art has always been my way of expressing feelings and ideas that are sometimes difficult to put into words. Whether I'm working with vibrant colors on a canvas or experimenting with digital techniques, I aim to create pieces that evoke emotions and tell stories. My work has been exhibited in several galleries, and I’m constantly striving to evolve, learn, and push the boundaries of my creativity. 
+            </p>
+        </div>
+    </div>
+</body>
+</html>
