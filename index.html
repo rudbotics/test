@@ -43,7 +43,7 @@
             margin-top: 40px;
         }
         .gallery-item {
-            width: 250px;
+            width: 300px;
             margin: 15px;
             background-color: #2e6b53;
             border-radius: 8px;
@@ -54,38 +54,24 @@
             width: 100%;
             border-radius: 8px;
         }
-        .description {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            margin-top: 10px;
-            border-radius: 5px;
-            height: 100px; /* Box height */
-            overflow-y: auto;
-        }
-
-        .right-sidebar {
-            display: flex;
-            flex-wrap: wrap;
-            margin-top: 40px;
-            justify-content: flex-start;
-        }
-
-        .sidebar-box {
-            width: 220px;
+        /* Box for Project Description */
+        .project-description {
             background-color: #2e6b53;
-            border-radius: 8px;
-            padding: 15px;
-            margin: 10px;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 40px;
+            text-align: center;
         }
-
-        .sidebar-box:last-child {
-            width: 100%;
+        .project-description h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
         }
-
-        .sidebar-box h3 {
-            margin: 0;
+        .project-description p {
             font-size: 20px;
+            line-height: 1.6;
+            text-align: left;
+            margin: 0 auto;
+            max-width: 900px;
         }
         .back-link {
             display: inline-block;
@@ -110,72 +96,37 @@
     <div class="content">
         <h1>Welcome to My Art Portfolio</h1>
 
+        <!-- Gallery of Artworks -->
         <div class="gallery">
             <!-- Image Box 1 -->
             <div class="gallery-item">
                 <img src="artwork1.jpg" alt="Artwork 1">
-                <div class="description">Add a description here.</div>
             </div>
             <!-- Image Box 2 -->
             <div class="gallery-item">
                 <img src="artwork2.jpg" alt="Artwork 2">
-                <div class="description">Add a description here.</div>
             </div>
             <!-- Image Box 3 -->
             <div class="gallery-item">
                 <img src="artwork3.jpg" alt="Artwork 3">
-                <div class="description">Add a description here.</div>
             </div>
             <!-- More Images -->
             <div class="gallery-item">
                 <img src="artwork4.jpg" alt="Artwork 4">
-                <div class="description">Add a description here.</div>
             </div>
             <div class="gallery-item">
                 <img src="artwork5.jpg" alt="Artwork 5">
-                <div class="description">Add a description here.</div>
             </div>
         </div>
 
-        <!-- Right Sidebar with Boxes -->
-        <div class="right-sidebar">
-            <!-- Sidebar Box 1 -->
-            <div class="sidebar-box">
-                <h3>Box 1</h3>
-                <p>Some content goes here.</p>
-            </div>
-            <!-- Sidebar Box 2 -->
-            <div class="sidebar-box">
-                <h3>Box 2</h3>
-                <p>Some content goes here.</p>
-            </div>
-            <!-- Sidebar Box 3 -->
-            <div class="sidebar-box">
-                <h3>Box 3</h3>
-                <p>Some content goes here.</p>
-            </div>
-            <!-- Sidebar Box 4 -->
-            <div class="sidebar-box">
-                <h3>Box 4</h3>
-                <p>Some content goes here.</p>
-            </div>
-            <!-- Sidebar Box 5 -->
-            <div class="sidebar-box">
-                <h3>Box 5</h3>
-                <p>Some content goes here.</p>
-            </div>
-            <!-- Sidebar Box 6 -->
-            <div class="sidebar-box">
-                <h3>Box 6</h3>
-                <p>Some content goes here.</p>
-            </div>
-            <!-- Sidebar Box 7 -->
-            <div class="sidebar-box">
-                <h3>Box 7</h3>
-                <p>Some content goes here.</p>
-            </div>
+        <!-- Box with Project Description -->
+        <div class="project-description">
+            <h2>About This Project</h2>
+            <p>
+                This collection of artwork explores the dynamic relationship between nature and the human experience. Each piece delves into various themes of emotion, identity, and the environment, with a focus on both abstract and representational forms. Through a combination of traditional media and digital techniques, I aim to provoke thought and invite viewers into a space where art becomes a bridge for self-reflection and dialogue. The project reflects my ongoing exploration of personal themes and my desire to express complex emotions through visual storytelling.
+            </p>
         </div>
-        
+
         <!-- Back to Portfolio Link -->
         <a href="about.html" class="back-link">Learn More About Me</a>
     </div>
